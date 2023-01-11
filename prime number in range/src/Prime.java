@@ -13,7 +13,7 @@ public class Prime {
     }
     static void primeinrange(int r1, int r2)
     {
-        int j,c=0;
+        int j;
         for(int i=r1;i<=r2;i++){
             for(j=2;j<i;j++)
             {     if(i%j==0)
